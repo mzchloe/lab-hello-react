@@ -28,23 +28,23 @@ function App() {
         <button>Awesome!</button>
       </header>
 
-      <div className="features-container">
-        <div className="icon1 box">
+      <div className="items-container">
+        <div className="item1 box">
           <img className="img-icons" src={icon1} alt="menu" />
           <h2>Declarative</h2>
           <p>React makes it painless to create interactive UIs.</p>
         </div>
-        <div className="icon2 box">
+        <div className="item2 box">
           <img className="img-icons" src={icon2} alt="menu" />
           <h2>Components</h2>
           <p>Build encapsulated components that manage their state.</p>
         </div>
-        <div className="icon3 box">
+        <div className="item3 box">
           <img className="img-icons" src={icon3} alt="menu" />
           <h2>Single-Way</h2>
           <p>A set of immutable values are passed to the component's.</p>
         </div>
-        <div className="icon4 box">
+        <div className="item4 box">
           <img className="img-icons" src={icon4} alt="menu" />
           <h2>JSX</h2>
           <p>Statically-typed, designed to run on modern browsers.</p>
